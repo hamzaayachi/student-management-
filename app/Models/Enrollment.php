@@ -10,4 +10,17 @@ class Enrollment extends Model
     protected $primaryKey = 'id';
     protected $fillable = ['enroll_no','batch_id','student_id','join_date','fee'];
 
+
+    public function student(){
+
+        return $this->BelongsTo(Student::class);
+    }
+
+
+    public function batch(){
+
+        return $this->BelongsTo(batch::class);
+    }
+
+
 }
