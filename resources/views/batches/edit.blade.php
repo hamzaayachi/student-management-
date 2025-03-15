@@ -14,7 +14,7 @@
         <label>Course Name</label></br>
         <input type="text" name="course_id" id="course_id" value="{{$batches->course->name}}" class="form-control"></br>
         <label>Start Date</label></br>
-        <input type="text" name="star_date" id="star_date" value="{{$batches->star_date}}" class="form-control"></br>
+        <input type="date" name="star_date" id="star_date" value="{{$batches->star_date}}" class="form-control"></br>
         <input type="submit" value="Update" class="btn btn-success"></br>
     </form>
    
