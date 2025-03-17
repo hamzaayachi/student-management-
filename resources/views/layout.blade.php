@@ -89,12 +89,12 @@
             <!-- Heading -->
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCourses"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Courses</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapseCourses" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header"><a href="{{ url('/courses') }}">Courses</a></h6>
                     </div>
@@ -103,12 +103,12 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBatches"
                   aria-expanded="true" aria-controls="collapsePages">
                   <i class="fas fa-fw fa-folder"></i>
                   <span>Batches</span>
               </a>
-              <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+              <div id="collapseBatches" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                   <div class="bg-white py-2 collapse-inner rounded">
                       <h6 class="collapse-header"><a href="{{ url('/batches') }}">Batches</a></h6>
                   </div>
@@ -117,12 +117,12 @@
 
 
           <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEnroll"
                 aria-expanded="true" aria-controls="collapsePages">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Enrollment</span>
             </a>
-            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div id="collapseEnroll" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header"><a href="{{ url('/enrollments') }}">Enrollment</a></h6>
                 </div>
@@ -130,12 +130,12 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePayment"
               aria-expanded="true" aria-controls="collapsePages">
               <i class="fas fa-fw fa-folder"></i>
               <span>Payment</span>
           </a>
-          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div id="collapsePayment" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
               <div class="bg-white py-2 collapse-inner rounded">
                   <h6 class="collapse-header"><a href="{{ url('/payments') }}">Payment</a>
                   </h6>
